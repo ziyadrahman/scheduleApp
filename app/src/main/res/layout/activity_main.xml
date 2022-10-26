@@ -8,8 +8,33 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/schedule"
+        android:layout_width="152dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:text="Schedule" />
+        android:layout_marginLeft="76.5dp"
+        android:layout_marginTop="5.77dp"
+        android:gravity="top"
+        android:text="@string/schedule"
+        android:textAppearance="@style/schedule" />
+    <TextView
+        android:id="@+id/add_your_ti"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/img_add"
+        android:text="@string/add_your_ti"
+        android:textAppearance="@style/add_your_ti"
+        android:gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/img_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/group_3"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>

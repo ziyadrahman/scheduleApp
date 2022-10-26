@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">scheduleApp</string>
+    <string name="schedule">
+
+Schedule
+</string>
+    <string name="add_your_ti">
+
+Add your timing
+</string>
 </resources>
